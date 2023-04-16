@@ -3,8 +3,6 @@
 
 
 
-//Реализовать простой калькулятор
-
 import java.util.Scanner;
 
 public class Task_home_1 {
