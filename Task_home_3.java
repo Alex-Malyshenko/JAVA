@@ -32,7 +32,6 @@ public class Task_home_3 {
                 rez = f_num / t_num;
                 break;
             }
-
         
         }
         System.out.println(rez);
