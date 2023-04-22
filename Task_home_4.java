@@ -9,8 +9,6 @@ SELECT * FROM students WHERE name = "Ivanov" AND country = "Russia" AND city = "
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.util.Arrays;
 
 public class Task_home_4 {
     public static void main(String[] args) throws IOException {
@@ -25,8 +23,5 @@ public class Task_home_4 {
             
             System.out.printf("SELECT * FROM students WHERE %s = \"%s\" AND %s = \"%s\" AND %s = \"%s\"", rezStr[0].trim(), rezStr[1].trim(), rezStr[2].trim(), rezStr[3].trim(), rezStr[4].trim(), rezStr[5].trim());
 
-            
-            
-            
     }
 }
