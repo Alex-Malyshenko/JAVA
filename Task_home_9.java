@@ -13,7 +13,6 @@ public class Task_home_9 {
 
         LinkedList<Integer> reversedList = reverseLinkedList(l_in);
         System.out.println("Перевернутый список: " + reversedList);
-
     }
 
     public static LinkedList<Integer> reverseLinkedList(LinkedList<Integer> l_in) {
@@ -24,8 +23,6 @@ public class Task_home_9 {
             reversedList.add(element);
         }
         return reversedList;
-
     }
 
 }
-
